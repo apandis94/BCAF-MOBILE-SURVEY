@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login - Checking,,,,2022-02-21 15:34:21,2022-02-21 15:36:45,2m - 23.934s,PASSED
+,,,,,,,
+Test Cases/Regio_Manager/1. Login,,,,2022-02-21 15:34:22,2022-02-21 15:35:02,40.374s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-02-21 15:34:23,2022-02-21 15:34:23,0.003s,PASSED
+"startExistingApplication(""com.bcaf.mobilesurvey"")",,,,2022-02-21 15:34:23,2022-02-21 15:34:43,19.935s,PASSED
+"setText(findTestObject(""Object Repository/Login/android.widget.EditText - NIP""), findTestData(""Regio_Manager"").getObjectValue(""Username"", 1), 0)",,,,2022-02-21 15:34:43,2022-02-21 15:34:46,3.354s,PASSED
+"setText(findTestObject(""Object Repository/Login/android.widget.EditText - Password""), findTestData(""Regio_Manager"").getObjectValue(""Pass"", 1), 0)",,,,2022-02-21 15:34:46,2022-02-21 15:34:48,2.027s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.widget.CheckBox - Remember Me""), 0)",,,,2022-02-21 15:34:48,2022-02-21 15:34:49,1.086s,PASSED
+hideKeyboard(),,,,2022-02-21 15:34:49,2022-02-21 15:34:53,3.533s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-02-21 15:34:53,2022-02-21 15:34:56,3.060s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + ""Login 3.1"" + "".png"", STOP_ON_FAILURE)",,,,2022-02-21 15:34:56,2022-02-21 15:34:58,2.482s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.widget.Button - LOGIN""), 0)",,,,2022-02-21 15:34:58,2022-02-21 15:34:59,0.991s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-02-21 15:34:59,2022-02-21 15:35:02,3.015s,PASSED
+,,,,,,,
+Test Cases/Regio_Manager/2. History - SurveyKendaraan,,,,2022-02-21 15:35:02,2022-02-21 15:36:45,1m - 42.876s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-02-21 15:35:03,2022-02-21 15:35:03,0.002s,PASSED
+"startExistingApplication(""com.bcaf.mobilesurvey"")",,,,2022-02-21 15:35:03,2022-02-21 15:35:14,10.886s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-02-21 15:35:14,2022-02-21 15:35:17,3.008s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + ""Survey Kendaraan 1"" + "".png"", STOP_ON_FAILURE)",,,,2022-02-21 15:35:17,2022-02-21 15:35:19,1.842s,PASSED
+"tap(findTestObject(""Object Repository/History_SurveyKendaraan/android.widget.LinearLayout""), 0)",,,,2022-02-21 15:35:19,2022-02-21 15:35:20,1.006s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-02-21 15:35:20,2022-02-21 15:35:23,3.019s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + ""Survey Kendaraan 2"" + "".png"", STOP_ON_FAILURE)",,,,2022-02-21 15:35:23,2022-02-21 15:35:25,2.075s,PASSED
+"tap(findTestObject(""History_SurveyKendaraan/android.widget.FrameLayout (HistoryInquiry RM)""), 0)",,,,2022-02-21 15:35:25,2022-02-21 15:35:26,0.903s,PASSED
+"setText(findTestObject(""Object Repository/History_SurveyKendaraan/android.widget.EditText - No Polisi""), findTestData(""No_Polisi"").getObjectValue(""No_Polisi"", 6), 0)",,,,2022-02-21 15:35:26,2022-02-21 15:35:27,1.716s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + ""Survey Kendaraan 3"" + "".png"", STOP_ON_FAILURE)",,,,2022-02-21 15:35:27,2022-02-21 15:35:29,1.988s,PASSED
+"tap(findTestObject(""Object Repository/History_SurveyKendaraan/android.widget.Button - SEARCH""), 0)",,,,2022-02-21 15:35:29,2022-02-21 15:35:30,0.840s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-02-21 15:35:30,2022-02-21 15:35:33,3.009s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + ""Survey Kendaraan 4"" + "".png"", STOP_ON_FAILURE)",,,,2022-02-21 15:35:33,2022-02-21 15:35:35,2.076s,PASSED
+"scrollToText(""Data Kendaraan"")",,,,2022-02-21 15:35:35,2022-02-21 15:35:41,5.928s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-02-21 15:35:41,2022-02-21 15:35:44,3.013s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + ""Survey Kendaraan 5"" + "".png"", STOP_ON_FAILURE)",,,,2022-02-21 15:35:44,2022-02-21 15:35:46,2.269s,PASSED
+"tap(findTestObject(""Object Repository/History_SurveyKendaraan/android.widget.TextView - Surat Kendaraan""), 0)",,,,2022-02-21 15:35:46,2022-02-21 15:35:48,1.999s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-02-21 15:35:48,2022-02-21 15:35:51,3.014s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + ""Survey Kendaraan 6"" + "".png"", STOP_ON_FAILURE)",,,,2022-02-21 15:35:51,2022-02-21 15:35:54,2.250s,PASSED
+"scrollToText(""Kondisi Kendaraan"")",,,,2022-02-21 15:35:54,2022-02-21 15:36:01,6.852s,PASSED
+"tap(findTestObject(""Object Repository/History_SurveyKendaraan/android.widget.TextView - Kondisi Kendaraan""), 0)",,,,2022-02-21 15:36:01,2022-02-21 15:36:02,1.845s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + ""Survey Kendaraan 7"" + "".png"", STOP_ON_FAILURE)",,,,2022-02-21 15:36:02,2022-02-21 15:36:05,2.214s,PASSED
+"scrollToText(""Foto Mobil"")",,,,2022-02-21 15:36:05,2022-02-21 15:36:17,12.151s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-02-21 15:36:17,2022-02-21 15:36:20,3.010s,PASSED
+"tap(findTestObject(""Object Repository/History_SurveyKendaraan/android.widget.TextView - Foto Mobil""), 0)",,,,2022-02-21 15:36:20,2022-02-21 15:36:22,1.975s,PASSED
+"scrollToText(""Kiri Depan"")",,,,2022-02-21 15:36:22,2022-02-21 15:36:38,15.931s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-02-21 15:36:38,2022-02-21 15:36:41,3.012s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + ""Survey Kendaraan 8"" + "".png"", STOP_ON_FAILURE)",,,,2022-02-21 15:36:41,2022-02-21 15:36:44,3.436s,PASSED
+closeApplication(),,,,2022-02-21 15:36:44,2022-02-21 15:36:45,0.880s,PASSED

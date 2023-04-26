@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1.2 Login - Re Sumbit" time="169.968" tests="2" failures="0" errors="0">
+   <testsuite name="1.2 Login - Re Sumbit" tests="2" failures="0" errors="0" time="169.968" skipped="0" timestamp="2022-02-21 11:01:28" hostname="Nia Yusniati - Apandi" id="Test Suites/Branch_Manager/1.2 Login - Re Sumbit">
+      <properties>
+         <property name="deviceName" value="samsung SM-M315F (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nia Yusniati\\Git_Asa\\mobile-survey\\Reports\\20220221_110123\\Branch_Manager\\1.2 Login - Re Sumbit\\20220221_110123"/>
+         <property name="logFiles" value="C:\\Users\\Nia Yusniati\\Git_Asa\\mobile-survey\\Reports\\20220221_110123\\Branch_Manager\\1.2 Login - Re Sumbit\\20220221_110123\\appium.log, C:\\Users\\Nia Yusniati\\Git_Asa\\mobile-survey\\Reports\\20220221_110123\\Branch_Manager\\1.2 Login - Re Sumbit\\20220221_110123\\execution0.log"/>
+         <property name="attachments" value="C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobilelogin 1.1.png, C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.1.png, C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.2.png, C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.3.png, C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.4 .png, C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.5.png, C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.6.png, C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.7.png, C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.8.png, C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.9.png, C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.10.png"/>
+         <property name="hostName" value="Nia Yusniati - Apandi"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.2&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.2"/>
+         <property name="deviceModel" value="SM-M315F"/>
+         <property name="hostAddress" value="192.168.1.21"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8N605F11Y"/>
+         <property name="deviceName" value="samsung SM-M315F (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Branch_Manager/1. Login" time="40.958" classname="Test Cases/Branch_Manager/1. Login" status="PASSED">
+         <system-out><![CDATA[2022-02-21 11:01:29 - [TEST_CASE][PASSED] - Test Cases/Branch_Manager/1. Login: Test Cases/Branch_Manager/1. Login
+
+2022-02-21 11:01:29 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2022-02-21 11:01:30 - [TEST_STEP][PASSED] - startExistingApplication("com.bcaf.mobilesurvey"): Starting app with application ID: 'com.bcaf.mobilesurvey'
+
+2022-02-21 11:01:34 - [MESSAGE][INFO] - Appium server started on port 55,262
+
+2022-02-21 11:01:48 - [MESSAGE][PASSED] - Starting app with application ID: 'com.bcaf.mobilesurvey'
+
+2022-02-21 11:01:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/android.widget.EditText - NIP"), findTestData("Branch_Manager").getObjectValue("Username", 2), 0): Text '20211002' has been set to element 'Object Repository/Login/android.widget.EditText - NIP'
+
+2022-02-21 11:01:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-21 11:01:52 - [MESSAGE][PASSED] - Text '20211002' has been set to element 'Object Repository/Login/android.widget.EditText - NIP'
+
+2022-02-21 11:01:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/android.widget.EditText - Password"), findTestData("Branch_Manager").getObjectValue("Pass", 2), 0): Text 'mobile123+' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2022-02-21 11:01:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-21 11:01:54 - [MESSAGE][PASSED] - Text 'mobile123+' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2022-02-21 11:01:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.widget.CheckBox - Remember Me"), 0): Tapped on element 'Object Repository/Login/android.widget.CheckBox - Remember Me'
+
+2022-02-21 11:01:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-21 11:01:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.CheckBox - Remember Me'
+
+2022-02-21 11:01:55 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-02-21 11:01:58 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-02-21 11:01:58 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-02-21 11:02:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-21 11:02:01 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + "login 1.1" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-02-21 11:02:03 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-02-21 11:02:04 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobilelogin 1.1.png]]
+
+2022-02-21 11:02:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.widget.Button - LOGIN"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - LOGIN'
+
+2022-02-21 11:02:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-21 11:02:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - LOGIN'
+
+2022-02-21 11:02:05 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2022-02-21 11:02:10 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Branch_Manager/4. Re-Submit" time="126.175" classname="Test Cases/Branch_Manager/4. Re-Submit" status="PASSED">
+         <system-out><![CDATA[2022-02-21 11:02:10 - [TEST_CASE][PASSED] - Test Cases/Branch_Manager/4. Re-Submit: Test Cases/Branch_Manager/4. Re-Submit
+
+2022-02-21 11:02:10 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2022-02-21 11:02:10 - [TEST_STEP][PASSED] - startExistingApplication("com.bcaf.mobilesurvey"): Starting app with application ID: 'com.bcaf.mobilesurvey'
+
+2022-02-21 11:02:21 - [MESSAGE][PASSED] - Starting app with application ID: 'com.bcaf.mobilesurvey'
+
+2022-02-21 11:02:21 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-02-21 11:02:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-21 11:02:24 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + "Survey Kendaraan 4.1" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-02-21 11:02:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-02-21 11:02:26 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.1.png]]
+
+2022-02-21 11:02:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Submit/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Submit/android.widget.LinearLayout'
+
+2022-02-21 11:02:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-21 11:02:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Submit/android.widget.LinearLayout'
+
+2022-02-21 11:02:28 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-02-21 11:02:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-21 11:02:31 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + "Survey Kendaraan 4.2" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-02-21 11:02:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-02-21 11:02:33 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.2.png]]
+
+2022-02-21 11:02:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Submit/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Submit/android.widget.LinearLayout (1)'
+
+2022-02-21 11:02:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-21 11:02:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Submit/android.widget.LinearLayout (1)'
+
+2022-02-21 11:02:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Submit/android.widget.EditText - No Polisi"), findTestData("No_Polisi").getObjectValue("No_Polisi", 6), 0): Text 'B777B' has been set to element 'Object Repository/Submit/android.widget.EditText - No Polisi'
+
+2022-02-21 11:02:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-21 11:02:37 - [MESSAGE][PASSED] - Text 'B777B' has been set to element 'Object Repository/Submit/android.widget.EditText - No Polisi'
+
+2022-02-21 11:02:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Submit/android.widget.Spinner"), 0): Tapped on element 'Object Repository/Submit/android.widget.Spinner'
+
+2022-02-21 11:02:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-21 11:02:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Submit/android.widget.Spinner'
+
+2022-02-21 11:02:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Submit/android.widget.CheckedTextView - Aswata"), 0): Tapped on element 'Object Repository/Submit/android.widget.CheckedTextView - Aswata'
+
+2022-02-21 11:02:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-21 11:02:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Submit/android.widget.CheckedTextView - Aswata'
+
+2022-02-21 11:02:40 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-02-21 11:02:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-21 11:02:43 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + "Survey Kendaraan 4.3" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-02-21 11:02:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-02-21 11:02:45 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.3.png]]
+
+2022-02-21 11:02:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Submit/android.widget.Button - SEARCH"), 0): Tapped on element 'Object Repository/Submit/android.widget.Button - SEARCH'
+
+2022-02-21 11:02:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-21 11:02:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Submit/android.widget.Button - SEARCH'
+
+2022-02-21 11:02:46 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-02-21 11:02:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-21 11:02:49 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + "Survey Kendaraan 4.4 " + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-02-21 11:02:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-02-21 11:02:51 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.4 .png]]
+
+2022-02-21 11:02:51 - [TEST_STEP][PASSED] - scrollToText("Data Kendaraan"): Scrolling to text 'Data Kendaraan' successfully
+
+2022-02-21 11:02:52 - [MESSAGE][PASSED] - Scrolling to text 'Data Kendaraan' successfully
+
+2022-02-21 11:02:52 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-02-21 11:02:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-21 11:02:55 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + "Survey Kendaraan 4.5" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-02-21 11:02:57 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-02-21 11:02:57 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.5.png]]
+
+2022-02-21 11:02:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/History_SurveyKendaraan/android.widget.TextView - Surat Kendaraan"), 0): Tapped on element 'Object Repository/History_SurveyKendaraan/android.widget.TextView - Surat Kendaraan'
+
+2022-02-21 11:02:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-21 11:03:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/History_SurveyKendaraan/android.widget.TextView - Surat Kendaraan'
+
+2022-02-21 11:03:17 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-02-21 11:03:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-21 11:03:20 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + "Survey Kendaraan 4.6" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-02-21 11:03:22 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-02-21 11:03:22 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.6.png]]
+
+2022-02-21 11:03:22 - [TEST_STEP][PASSED] - scrollToText("Kondisi Kendaraan"): Scrolling to text 'Kondisi Kendaraan' successfully
+
+2022-02-21 11:03:23 - [MESSAGE][PASSED] - Scrolling to text 'Kondisi Kendaraan' successfully
+
+2022-02-21 11:03:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/History_SurveyKendaraan/android.widget.TextView - Kondisi Kendaraan"), 0): Tapped on element 'Object Repository/History_SurveyKendaraan/android.widget.TextView - Kondisi Kendaraan'
+
+2022-02-21 11:03:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-21 11:03:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/History_SurveyKendaraan/android.widget.TextView - Kondisi Kendaraan'
+
+2022-02-21 11:03:25 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + "Survey Kendaraan 4.7" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-02-21 11:03:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-02-21 11:03:27 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.7.png]]
+
+2022-02-21 11:03:27 - [TEST_STEP][PASSED] - scrollToText("Foto Mobil"): Scrolling to text 'Foto Mobil' successfully
+
+2022-02-21 11:03:36 - [MESSAGE][PASSED] - Scrolling to text 'Foto Mobil' successfully
+
+2022-02-21 11:03:36 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-02-21 11:03:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-21 11:03:39 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + "Survey Kendaraan 4.8" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-02-21 11:03:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-02-21 11:03:41 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.8.png]]
+
+2022-02-21 11:03:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/History_SurveyKendaraan/android.widget.TextView - Foto Mobil"), 0): Tapped on element 'Object Repository/History_SurveyKendaraan/android.widget.TextView - Foto Mobil'
+
+2022-02-21 11:03:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-21 11:03:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/History_SurveyKendaraan/android.widget.TextView - Foto Mobil'
+
+2022-02-21 11:03:43 - [TEST_STEP][PASSED] - scrollToText("Kiri Depan"): Scrolling to text 'Kiri Depan' successfully
+
+2022-02-21 11:03:57 - [MESSAGE][PASSED] - Scrolling to text 'Kiri Depan' successfully
+
+2022-02-21 11:03:57 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-02-21 11:04:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-21 11:04:00 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + "Survey Kendaraan 4.9" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-02-21 11:04:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-02-21 11:04:03 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.9.png]]
+
+2022-02-21 11:04:03 - [TEST_STEP][PASSED] - scrollToText("SUBMIT"): Scrolling to text 'SUBMIT' successfully
+
+2022-02-21 11:04:04 - [MESSAGE][PASSED] - Scrolling to text 'SUBMIT' successfully
+
+2022-02-21 11:04:04 - [TEST_STEP][PASSED] - tap(findTestObject("Status/android.widget.RadioButton - Approved (1)"), 0): Tapped on element 'Object Repository/Status/android.widget.RadioButton - Approved (1)'
+
+2022-02-21 11:04:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-21 11:04:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Status/android.widget.RadioButton - Approved (1)'
+
+2022-02-21 11:04:05 - [TEST_STEP][PASSED] - setText(findTestObject("Status/android.widget.EditText - Komentar (Set Text)"), findTestData("Status_Submit").getObjectValue("Status", 1), 0): Text 'Status : Tidak Submit' has been set to element 'Object Repository/Status/android.widget.EditText - Komentar (Set Text)'
+
+2022-02-21 11:04:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-21 11:04:07 - [MESSAGE][PASSED] - Text 'Status : Tidak Submit' has been set to element 'Object Repository/Status/android.widget.EditText - Komentar (Set Text)'
+
+2022-02-21 11:04:07 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-02-21 11:04:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-21 11:04:10 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + "Survey Kendaraan 4.10" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-02-21 11:04:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-02-21 11:04:13 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\mobile-survey\Screenshot\keyes\keyes-mobileSurvey Kendaraan 4.10.png]]
+
+2022-02-21 11:04:13 - [TEST_STEP][NOT_RUN] - checkElement(findTestObject("Status/android.widget.Button - SUBMIT"), 0): NOT_RUN: checkElement(findTestObject("Status/android.widget.Button - SUBMIT"), 0)
+
+2022-02-21 11:04:13 - [MESSAGE][NOT_RUN] - NOT_RUN: checkElement(findTestObject("Status/android.widget.Button - SUBMIT"), 0)
+
+2022-02-21 11:04:13 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-02-21 11:04:16 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-21 11:01:28 - [TEST_SUITE][PASSED] - 1.2 Login - Re Sumbit: Test Cases/Branch_Manager/4. Re-Submit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

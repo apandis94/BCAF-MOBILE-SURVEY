@@ -1,0 +1,71 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login - Submit,,,,2022-01-04 14:02:00,2022-01-04 14:05:01,3m - 1.131s,PASSED
+,,,,,,,
+Test Cases/Deputi_Direktur/1. Login,,,,2022-01-04 14:02:01,2022-01-04 14:02:45,43.547s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-01-04 14:02:03,2022-01-04 14:02:03,0.004s,PASSED
+"startExistingApplication(""com.bcaf.mobilesurvey"")",,,,2022-01-04 14:02:03,2022-01-04 14:02:25,21.758s,PASSED
+"setText(findTestObject(""Object Repository/Login/android.widget.EditText - NIP""), findTestData(""Deputi_Direktur"").getObjectValue(""Username"", 1), 0)",,,,2022-01-04 14:02:25,2022-01-04 14:02:29,4.176s,PASSED
+"setText(findTestObject(""Object Repository/Login/android.widget.EditText - Password""), findTestData(""Deputi_Direktur"").getObjectValue(""Pass"", 1), 0)",,,,2022-01-04 14:02:29,2022-01-04 14:02:30,1.412s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.widget.CheckBox - Remember Me""), 0)",,,,2022-01-04 14:02:30,2022-01-04 14:02:31,1.097s,PASSED
+hideKeyboard(),,,,2022-01-04 14:02:31,2022-01-04 14:02:33,1.677s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-01-04 14:02:33,2022-01-04 14:02:36,3.073s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + ""Login 2.1"" + "".png"", STOP_ON_FAILURE)",,,,2022-01-04 14:02:36,2022-01-04 14:02:39,2.688s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.widget.Button - LOGIN""), 0)",,,,2022-01-04 14:02:39,2022-01-04 14:02:40,0.930s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-01-04 14:02:40,2022-01-04 14:02:45,5.016s,PASSED
+,,,,,,,
+Test Cases/Deputi_Direktur/2. Form Survey,,,,2022-01-04 14:02:45,2022-01-04 14:05:01,2m - 16.382s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-01-04 14:02:46,2022-01-04 14:02:46,0.001s,PASSED
+"startExistingApplication(""com.bcaf.mobilesurvey"")",,,,2022-01-04 14:02:46,2022-01-04 14:02:56,10.889s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + ""Form Survey 1"" + "".png"", STOP_ON_FAILURE)",,,,2022-01-04 14:02:56,2022-01-04 14:03:00,3.225s,PASSED
+"tap(findTestObject(""Object Repository/Form Survey/android.widget.LinearLayout""), 0)",,,,2022-01-04 14:03:00,2022-01-04 14:03:01,0.990s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + ""Form Survey 2"" + "".png"", STOP_ON_FAILURE)",,,,2022-01-04 14:03:01,2022-01-04 14:03:03,1.902s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Mobile ID""), findTestData(""Deputi_Direktur"").getObjectValue(""MobileID"", 1), 0)",,,,2022-01-04 14:03:03,2022-01-04 14:03:04,1.744s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Nama Konsumen""), findTestData(""Deputi_Direktur"").getObjectValue(""Nama"", 1), 0)",,,,2022-01-04 14:03:04,2022-01-04 14:03:06,1.846s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - No KTP""), findTestData(""Deputi_Direktur"").getObjectValue(""Ktp"", 1), 0)",,,,2022-01-04 14:03:06,2022-01-04 14:03:09,2.683s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - No HP""), findTestData(""Deputi_Direktur"").getObjectValue(""Hp"", 1), 0)",,,,2022-01-04 14:03:09,2022-01-04 14:03:11,2.226s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - No Telp""), findTestData(""Deputi_Direktur"").getObjectValue(""Tlp"", 1), 0)",,,,2022-01-04 14:03:11,2022-01-04 14:03:13,1.669s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Tempat Lahir""), findTestData(""Deputi_Direktur"").getObjectValue(""Tempat Lahir"", 1), 0)",,,,2022-01-04 14:03:13,2022-01-04 14:03:14,1.644s,PASSED
+"tap(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Tanggal Lahir""), 0)",,,,2022-01-04 14:03:14,2022-01-04 14:03:16,1.307s,PASSED
+"tap(findTestObject(""Object Repository/Form Survey/android.widget.TextView - 2005""), 0)",,,,2022-01-04 14:03:16,2022-01-04 14:03:18,2.331s,PASSED
+"scrollToText(""1990"")",,,,2022-01-04 14:03:18,2022-01-04 14:03:30,12.262s,PASSED
+"tap(findTestObject(""Object Repository/Form Survey/android.widget.TextView - 1990""), 0)",,,,2022-01-04 14:03:30,2022-01-04 14:03:32,1.322s,PASSED
+"tap(findTestObject(""Object Repository/Form Survey/android.view.View - 11""), 0)",,,,2022-01-04 14:03:32,2022-01-04 14:03:33,1.520s,PASSED
+"tap(findTestObject(""Object Repository/Form Survey/android.widget.Button - OK""), 0)",,,,2022-01-04 14:03:33,2022-01-04 14:03:34,1.048s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Nama Pasangan""), findTestData(""Deputi_Direktur"").getObjectValue(""Nama Pas"", 1), 0)",,,,2022-01-04 14:03:34,2022-01-04 14:03:36,1.764s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Jumlah Tanggungan""), findTestData(""Deputi_Direktur"").getObjectValue(""JumlahT"", 1), 0)",,,,2022-01-04 14:03:36,2022-01-04 14:03:38,2.412s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Nama Ibu Kandung""), findTestData(""Deputi_Direktur"").getObjectValue(""Nama Ibu"", 1), 0)",,,,2022-01-04 14:03:38,2022-01-04 14:03:40,1.935s,PASSED
+"tap(findTestObject(""Object Repository/Form Survey/android.widget.TextView - Informasi Rumah Konsumen""), 0)",,,,2022-01-04 14:03:40,2022-01-04 14:03:41,1.026s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-01-04 14:03:41,2022-01-04 14:03:44,3.011s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + ""Form Survey 3"" + "".png"", STOP_ON_FAILURE)",,,,2022-01-04 14:03:44,2022-01-04 14:03:46,2.042s,PASSED
+"scrollToText(""Submit"")",,,,2022-01-04 14:03:46,2022-01-04 14:03:52,5.269s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Alamat Rumah""), findTestData(""Deputi_Direktur"").getObjectValue(""Alamat Rumah"", 1), 0)",,,,2022-01-04 14:03:52,2022-01-04 14:03:53,1.353s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - RT""), findTestData(""Deputi_Direktur"").getObjectValue(""Rt"", 1), 0)",,,,2022-01-04 14:03:53,2022-01-04 14:03:54,1.468s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - RW""), findTestData(""Deputi_Direktur"").getObjectValue(""Rw"", 1), 0)",,,,2022-01-04 14:03:54,2022-01-04 14:03:56,2.035s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Kelurahan""), findTestData(""Deputi_Direktur"").getObjectValue(""Kelurahan"", 1), 0)",,,,2022-01-04 14:03:56,2022-01-04 14:03:59,2.519s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Kecamatan""), findTestData(""Deputi_Direktur"").getObjectValue(""Kecamatan"", 1), 0)",,,,2022-01-04 14:03:59,2022-01-04 14:04:01,2.018s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - KabupatenKota""), findTestData(""Deputi_Direktur"").getObjectValue(""Kabupaten"", 1), 0)",,,,2022-01-04 14:04:01,2022-01-04 14:04:03,2.033s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Kode Pos""), findTestData(""Deputi_Direktur"").getObjectValue(""Kode Pos"", 1), 0)",,,,2022-01-04 14:04:03,2022-01-04 14:04:05,1.529s,PASSED
+"tap(findTestObject(""Object Repository/Form Survey/android.widget.TextView - Informasi UsahaKantor Konsumen""), 0)",,,,2022-01-04 14:04:05,2022-01-04 14:04:06,1.215s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-01-04 14:04:06,2022-01-04 14:04:09,3.012s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + ""Form Survey 4"" + "".png"", STOP_ON_FAILURE)",,,,2022-01-04 14:04:09,2022-01-04 14:04:11,2.045s,PASSED
+"scrollToText(""Submit"")",,,,2022-01-04 14:04:11,2022-01-04 14:04:17,5.755s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Nama Tempat Usaha (1)""), findTestData(""Deputi_Direktur"").getObjectValue(""Nama Perusahaan"", 1), 0)",,,,2022-01-04 14:04:17,2022-01-04 14:04:18,1.409s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Alamat Tempat Usaha""), findTestData(""Deputi_Direktur"").getObjectValue(""Alamat Perusahaan"", 1), 0)",,,,2022-01-04 14:04:18,2022-01-04 14:04:20,2.037s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - RT (1)""), findTestData(""Deputi_Direktur"").getObjectValue(""Rt P"", 1), 0)",,,,2022-01-04 14:04:20,2022-01-04 14:04:22,2.016s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - RW (1)""), findTestData(""Deputi_Direktur"").getObjectValue(""Rw P"", 1), 0)",,,,2022-01-04 14:04:22,2022-01-04 14:04:24,1.444s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Kelurahan (1)""), findTestData(""Deputi_Direktur"").getObjectValue(""Kelurahan P"", 1), 0)",,,,2022-01-04 14:04:24,2022-01-04 14:04:25,1.477s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Kecamatan (1)""), findTestData(""Deputi_Direktur"").getObjectValue(""Kecamatan P"", 1), 0)",,,,2022-01-04 14:04:25,2022-01-04 14:04:26,1.415s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - KabupatenKota (1)""), findTestData(""Deputi_Direktur"").getObjectValue(""Kabupaten P"", 1), 0)",,,,2022-01-04 14:04:26,2022-01-04 14:04:29,2.102s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Kode Pos (1)""), findTestData(""Deputi_Direktur"").getObjectValue(""Kode Pos P"", 1), 0)",,,,2022-01-04 14:04:29,2022-01-04 14:04:30,1.438s,PASSED
+"tap(findTestObject(""Object Repository/Form Survey/android.widget.TextView - Informasi Mobil""), 0)",,,,2022-01-04 14:04:30,2022-01-04 14:04:31,1.062s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-01-04 14:04:31,2022-01-04 14:04:34,3.014s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + ""Form Survey 5"" + "".png"", STOP_ON_FAILURE)",,,,2022-01-04 14:04:34,2022-01-04 14:04:36,2.204s,PASSED
+"scrollToText(""Submit"")",,,,2022-01-04 14:04:36,2022-01-04 14:04:44,8.133s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Merk Mobil""), findTestData(""Deputi_Direktur"").getObjectValue(""Merk M"", 1), 0)",,,,2022-01-04 14:04:44,2022-01-04 14:04:46,1.800s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Tipe Mobil""), findTestData(""Deputi_Direktur"").getObjectValue(""Tipe M"", 1), 0)",,,,2022-01-04 14:04:46,2022-01-04 14:04:48,1.981s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Tahun Mobil""), findTestData(""Deputi_Direktur"").getObjectValue(""Tahun M"", 1), 0)",,,,2022-01-04 14:04:48,2022-01-04 14:04:50,1.889s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - Warna Mobil""), findTestData(""Deputi_Direktur"").getObjectValue(""Warna M"", 1), 0)",,,,2022-01-04 14:04:50,2022-01-04 14:04:52,1.459s,PASSED
+"setText(findTestObject(""Object Repository/Form Survey/android.widget.EditText - DealerShowroom""), findTestData(""Deputi_Direktur"").getObjectValue(""Dealer"", 1), 0)",,,,2022-01-04 14:04:52,2022-01-04 14:04:53,1.356s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-01-04 14:04:53,2022-01-04 14:04:58,5.008s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathmobilesurvey + ""Form Survey 6"" + "".png"", STOP_ON_FAILURE)",,,,2022-01-04 14:04:58,2022-01-04 14:05:00,2.154s,PASSED
+closeApplication(),,,,2022-01-04 14:05:00,2022-01-04 14:05:01,1.027s,PASSED
